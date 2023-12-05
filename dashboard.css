@@ -15,6 +15,7 @@
     border: 1px solid black;
     border-radius: 8px;
     left:-50%;
+    transition: 1s;
 }
 .menu>h1{
     position: relative;
@@ -35,4 +36,7 @@
     font-size: 40px;
     color: white;
     cursor: pointer;
+}
+.smenu{
+    left: 0px;
 }
