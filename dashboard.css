@@ -1,4 +1,9 @@
-
+@import url('https://fonts.google.com/');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .ticon{
     font-size: 30px;
     margin: 10px;
@@ -11,7 +16,7 @@
     left:0px;
     width: 25%;
     height: 100vh;
-    background-color: rgb(0, 0, 0);
+    background:-webkit-linear-gradient(left,black,rgba(128, 0, 128, 0.781));
     border: 1px solid black;
     border-radius: 8px;
     left:-25%;
@@ -26,12 +31,13 @@
 .menu>ul>li>a{
     position: relative;
     display: block;
+    font-family: cursive;
     padding: 20px 15px;
-    color: aliceblue;
+    color: rgba(240, 248, 255, 0.644);
     text-decoration: none;
     animation: moveli 2.5s infinite;
     animation-iteration-count: 1;
-   
+    transition: 0.9s;
 }
 
 @keyframes moveli {
@@ -48,7 +54,11 @@
 .smenu{
     left: 0px;
 }
+.smenu>ul>li>a{
+    font-size: 30px;
+    color: antiquewhite;
+}
 
-@keyframes  {
-    
+.body{
+    background:-webkit-linear-gradient(left,purple,black);
 }
