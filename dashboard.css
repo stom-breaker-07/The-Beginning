@@ -16,10 +16,10 @@
     left:0px;
     width: 25%;
     height: 100vh;
-    background:-webkit-linear-gradient(left,black,rgba(128, 0, 128, 0.781));
+    background:-webkit-linear-gradient(left,rgb(128, 0, 128),rgba(236, 12, 49, 0.685));
     border: 1px solid black;
     border-radius: 8px;
-    left:-25%;
+    left:-50%;
     transition: 1s;
 }
 .menu>h1{
@@ -55,7 +55,6 @@
     left: 0px;
 }
 .smenu>ul>li>a{
-    font-size: 30px;
     color: antiquewhite;
 }
 
