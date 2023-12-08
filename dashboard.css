@@ -1,13 +1,12 @@
-@import url('https://fonts.google.com/');
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 .ticon{
     font-size: 30px;
     margin: 10px;
-    cursor: pointer;
+    font-family: 'Nova Square', sans-serif;
 }
 .menu{
     position:fixed;
@@ -26,18 +25,17 @@
     position: relative;
     color: aliceblue;
     padding: 10px;
-    font-family: cursive ;
+    font-family: 'Nova Square', sans-serif;
 }
 .menu>ul>li>a{
     position: relative;
     display: block;
-    font-family: cursive;
     padding: 20px 15px;
-    color: rgba(240, 248, 255, 0.644);
+    color: whitesmoke;
+    font-family: 'Nova Square', sans-serif;
     text-decoration: none;
     animation: moveli 2.5s infinite;
     animation-iteration-count: 1;
-    transition: 0.9s;
 }
 
 @keyframes moveli {
@@ -54,10 +52,10 @@
 .smenu{
     left: 0px;
 }
-.smenu>ul>li>a{
-    color: antiquewhite;
-}
-
 .body{
     background:-webkit-linear-gradient(left,purple,black);
+    font-family: 'Nova Square', sans-serif;
+}
+.i{
+    font-family: 'Nova Square', sans-serif;
 }

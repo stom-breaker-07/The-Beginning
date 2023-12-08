@@ -8,7 +8,3 @@ function cls(){
     m.classList.remove('smenu')
 }
 
-function big(){
-    var n=document.querySelector('.menu>ul>li>a');
-    n.clientHeight.add('.smenu>ul>li>a')
-}
